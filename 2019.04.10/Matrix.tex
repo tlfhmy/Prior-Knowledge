@@ -1,0 +1,119 @@
+\documentclass[a4paper,12pt]{ctexart}
+\usepackage{amsmath,amssymb,amsthm}
+
+\begin{document}
+	\subsection{矩阵的定义}
+		\subparagraph{矩阵的来源}
+		矩阵起源于线性方程组的求解，像简单的二元一次方程组
+		$
+		\left\{
+		\begin{array}{rl}
+		a_{11}x + a_{12}y &= b_1\\
+		a_{21}x + a_{22}y &= b_2
+		\end{array}
+		\right.
+		$
+		我们在求解的过程仅需要对其系数进行操作，于是乎，变量符号$x,y$对于我们来说，在计
+		算过程中，并不显得十分必要；因此，我们可以略掉其变量名而将系数写在一对方括号之
+		中，以便于进行计算。从该二元方程组我们可以得到如下形式的系数“方块”
+		$$
+		\left[
+		\begin{array}{rl}
+		a_{11} & a_{12}\\
+		a_{21} & a_{22}
+		\end{array}
+		\right]
+		=
+		\left[
+		\begin{array}{rl}
+		b_1\\
+		b_2
+		\end{array}
+		\right]
+		$$
+		类似的，我们可以从$n$元方程组（不一定有$n$个方程式）
+		$$
+		\left\{
+		\begin{array}{rl}
+		&a_{11}x_1 + a_{12}x_2 + \cdots + a_{1n}x_n = b_1\\
+		&a_{21}x_1 + a_{22}x_2 + \cdots + a_{2n}x_n = b_2\\
+		&\vdots \\
+		&a_{m1}x_1 + a_{m2}x_2 + \cdots + a_{mn}x_n =b_m
+		\end{array}
+		\right.
+		$$
+		得到系数“方块”
+		$$
+		\left[
+		\begin{array}{cccc}
+		a_{11} & a_{12} & \cdots & a_{1n}\\
+		a_{21} & a_{22} & \cdots & a_{2n}\\
+		\vdots & \vdots & \cdots & \vdots\\
+		a_{m1} & a_{m2} & \cdots & a_{mn}
+		\end{array}
+		\right]
+		=
+		\left[
+		\begin{array}{rl}
+		b_1\\
+		b_2\\
+		\vdots \\
+		b_m
+		\end{array}
+		\right]
+		$$
+		于是，为求得方程组的解集，一般来说我们需要进行两种操作：一，将某一行乘以一个非零
+		常数并不改变方程组的解集；二，将某一行的非零常数倍加到另一行，也不改变方程组的解
+		集。这样，对应到我们新得到的“方块中”，就是将某一行乘以非零常数倍，或者将某一行的
+		常数倍加到另一行之后，得到的新“方块”在方程组有同样的解集的意义下等价。至此，我们
+		已经抽象出了矩阵的基本概念，接下来我们正式定义矩阵。
+		
+		\subparagraph{矩阵的定义}		
+		在数学上，一个$m \times n$矩阵，是一个由$m$行，每行$n$个数字的列表组成。在矩
+		阵上我们定义定义加法和乘法：
+		\begin{enumerate}
+		\item{加法：}\\
+		并非任意种类的矩阵都可以进行加法运算，必须是同种类型的矩阵才可以，即，假设我们用记
+		号$M_{m \times n}$表示所有的$m \times n$矩阵，那么对任意的矩阵$A,B$，当且仅
+		当存在某个$M_{m \times n}$包含他们二者时，$A+B$才有意义；用数学符号表示为：
+		$\exists M_{m \times n},A \in M_{m \times n} \& B \in M_{m \times n} 
+		\Leftrightarrow \exists A+B$.直观的看来就是，两个矩阵相同位置的元素相加，所
+		得到的新矩阵就是矩阵的和。
+		\[		
+		\left[
+		\begin{array}{cccc}
+		a_{11} & a_{12} & \cdots a_{1n}\\
+		a_{21} & a_{22} & \cdots a_{2n}\\
+		\vdots \\
+		a_{m1} & a_{m2} & \cdots a_{mn}
+				
+		\end{array}		
+		\right]		
+		+
+		\left[
+		\begin{array}{cccc}
+		b_{11} & b_{12} & \cdots b_{1n}\\
+		b_{21} & b_{22} & \cdots b_{2n}\\
+		\vdots \\
+		b_{m1} & b_{m2} & \cdots b_{mn}
+				
+		\end{array}		
+		\right]
+		\]
+		\[
+		=
+		\left[
+		\begin{array}{cccc}
+		a_{11}+b_{11} & a_{12}+b_{12} & \cdots a_{1n}+b_{1n}\\
+		a_{21}+b_{21} & a_{22}+b_{22} & \cdots a_{2n}+b_{2n}\\
+		\vdots \\
+		a_{m1}+b_{m1} & a_{m2}+b_{m2} & \cdots a_{mn}+b_{mn}
+				
+		\end{array}		
+		\right]						
+		\]
+		\item{乘法：}\\
+		
+		\end{enumerate}
+		
+\end{document}
