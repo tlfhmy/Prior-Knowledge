@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.4.24)  21 JUN 2019 00:30
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.4.24)  21 JUN 2019 01:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Matrix.tex
-(./Matrix.tex
+**算法基础.tex
+(./算法基础.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/ctex/ctexart.cls
@@ -1298,8 +1298,8 @@ Package: amsthm 2017/10/31 v2.20.4
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-) (./Matrix.aux)
-\openout1 = `Matrix.aux'.
+) (./算法基础.aux)
+\openout1 = `算法基础.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
@@ -1384,30 +1384,25 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 5.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 5.
-LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+LaTeX Font Info:    Try loading font information for U+msa on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-] [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 208--213
-
- []
-
-[4] [5] [6] [7] [8] [9] (./Matrix.aux) ) 
+] [2] (./算法基础.aux) ) 
 Here is how much of TeX's memory you used:
- 21578 strings out of 493007
- 456672 string characters out of 6136719
- 507779 words of memory out of 5000000
- 25397 multiletter control sequences out of 15000+600000
+ 21510 strings out of 493007
+ 451578 string characters out of 6136719
+ 500775 words of memory out of 5000000
+ 25329 multiletter control sequences out of 15000+600000
  535135 words of font info for 55 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 57i,9n,74p,10447b,253s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,4n,74p,10445b,253s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Matrix.pdf (9 pages).
+Output written on 算法基础.pdf (2 pages).
