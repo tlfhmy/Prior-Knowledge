@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.4.24)  23 JUN 2019 01:49
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.4.24)  24 JUN 2019 01:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1443,7 +1443,7 @@ Overfull \hbox (43.84424pt too wide) detected at line 209
  []
 
 [5]
-Overfull \hbox (18.99341pt too wide) in paragraph at lines 217--237
+Overfull \hbox (18.99341pt too wide) in paragraph at lines 217--244
 []\TU/FandolSong-Regular(0)/m/n/12 我 们 在 定 义 算 法 时 间 复 杂 性 时  |（那 些 $\OML/cmm/m
 /it/12 T\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 N\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12
  O\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 N\OT1/cm
@@ -1453,7 +1453,22 @@ m/m/it/12 ; \OT1/cmr/m/n/12 ^^B(\OML/cmm/m/it/12 h\OT1/cmr/m/n/12 (\OML/cmm/m/i
 t/12 N\OT1/cmr/m/n/12 ))$\TU/FandolSong-Regular(0)/m/n/12 ） ，|
  []
 
-[6] [7] (./算法基础.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--244
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 246--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--264
+
+ []
+
+[7] [8] (./算法基础.aux) ) 
 Here is how much of TeX's memory you used:
  23480 strings out of 493007
  482639 string characters out of 6136719
@@ -1463,4 +1478,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  57i,8n,74p,10445b,2157s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 算法基础.pdf (7 pages).
+Output written on 算法基础.pdf (8 pages).
