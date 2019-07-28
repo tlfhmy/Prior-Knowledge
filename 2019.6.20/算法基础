@@ -1,0 +1,8 @@
+\documentclass[a4paper,12pt]{ctexart}
+\usepackage{amsmath,amssym,amsthm}
+\usepackage{identfirst}
+\setlength{\parident}{2em}
+\begin{document}
+	
+
+\end{document}
